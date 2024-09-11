@@ -10,7 +10,7 @@ imgui.OnInitialize(function()
     local glyph_ranges = imgui.GetIO().Fonts:GetGlyphRangesCyrillic()
     local iconRanges = imgui.new.ImWchar[3](fa.min_range, fa.max_range, 0)
     imgui.GetIO().Fonts:AddFontFromFileTTF('trebucbd.ttf', 14.0, nil, glyph_ranges)
-    icon = imgui.GetIO().Fonts:AddFontFromFileTTF('moonloader/AdminTools/fonts/fa-solid-900.ttf', 16.0, config, iconRanges)
+    icon = imgui.GetIO().Fonts:AddFontFromFileTTF('moonloader/SampDB/fonts/fa-solid-900.ttf', 16.0, config, iconRanges)
 end)
 
 local COLORS = {
