@@ -14,6 +14,7 @@
 1. 🧩 [DirectX + Visual C++ Redistributables](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/atoolsfiles/dx+vcredist.rar)
 2. 📁 [Папка `lib` (перенести в MoonLoader с заменой)](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/atoolsfiles/lib.rar)
 
+---
 
 <p align="center">
   🔗 <a href="https://github.com/amfeeque/samp.tools">Репозиторий на GitHub</a>
