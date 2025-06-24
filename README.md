@@ -1,4 +1,4 @@
-<h1 align="center">🛠️ AdminTools для Samp-Rp</h1>
+<h1 align="center">AdminTools для Samp-Rp</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-active-brightgreen?style=flat-square">
