@@ -23,8 +23,6 @@
 
 ---
 
-## ℹ️ Поддержка и ссылки
-
 <p align="center">
   📌 <a href="https://github.com/amfeeque/samp.tools"><strong>Репозиторий на GitHub</strong></a>
 </p>
