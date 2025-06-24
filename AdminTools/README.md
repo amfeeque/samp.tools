@@ -1,5 +1,21 @@
-Если скрипт не работает, установите по очереди файлы из архива: 
-https://github.com/amfeeque/samp.tools/raw/refs/heads/main/atoolsfiles/dx+vcredist.rar
+<h1 align="center">🔧 AdminTools</h1>
 
-А так же папку lib из архива перенесите в папку moonloader с заменой:
-https://github.com/amfeeque/samp.tools/raw/refs/heads/main/atoolsfiles/lib.rar
+<p align="center">
+  <strong>Универсальный инструментарий для администрации проекта Samp-Rp</strong><br>
+  <em>Если скрипт не запускается, следуйте инструкции ниже</em>
+</p>
+
+---
+
+## 📦 Установка зависимостей
+
+Если скрипт **не работает**, установите следующие файлы **по порядку**:
+
+1. 🧩 [DirectX + Visual C++ Redistributables](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/atoolsfiles/dx+vcredist.rar)
+2. 📁 [Папка `lib` (перенести в MoonLoader с заменой)](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/atoolsfiles/lib.rar)
+
+---
+
+<p align="center">
+  🔗 <a href="https://github.com/amfeeque/samp.tools">Репозиторий на GitHub</a>
+</p>
