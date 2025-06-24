@@ -13,19 +13,17 @@
 
 Если скрипт **не запускается**, выполните следующие шаги:
 
-### 1. Установите библиотеки:
+### 1. 📥 Скачать последнюю версию скрипта
+
+[🔄 Скачать AdminTools.luac (актуальная версия)](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/AdminTools/AdminTools.luac)
+
+### 2. Установите библиотеки:
 [📦 DirectX + Visual C++ Redistributables](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/atoolsfiles/dx+vcredist.rar)
 
-### 2. Обновите библиотеку `lib`:
+### 3. Обновите библиотеку `lib`:
 [📁 Скачать и заменить папку `lib`](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/atoolsfiles/lib.rar)
 
 > 🗂 Перенесите содержимое архива в `moonloader/lib/`, согласившись на замену файлов.
-
----
-
-### 📥 Скачать последнюю версию скрипта
-
-[🔄 Скачать AdminTools.luac (актуальная версия)](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/AdminTools/AdminTools.luac)
 
 ---
 
