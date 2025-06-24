@@ -15,13 +15,6 @@
 2. 📁 [Папка `lib` (перенести в MoonLoader с заменой)](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/atoolsfiles/lib.rar)
 
 
-<details>
-<summary><strong>Что делать, если не открывается меню?</strong></summary>
-
-- Проверьте, установлен ли DirectX и Visual C++
-- Убедитесь, что файлы библиотеки `lib` обновлены
-</details>
-
 <p align="center">
   🔗 <a href="https://github.com/amfeeque/samp.tools">Репозиторий на GitHub</a>
 </p>
