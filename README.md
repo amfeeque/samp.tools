@@ -1,4 +1,4 @@
-<h1 align="center">🔧 AdminTools for Admins Team Samp-Rp.Ru</h1>
+<h1 align="center">🔧 AdminTools</h1>
 
 <p align="center">
   <strong>Универсальный инструментарий для администрации проекта Samp-Rp</strong><br>
