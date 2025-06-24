@@ -1,4 +1,4 @@
-<h1 align="center">🚀 AdminTools для Samp-Rp</h1>
+<h1 align="center">AdminTools для Samp-Rp</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-active-brightgreen?style=flat-square">
@@ -11,8 +11,6 @@
 </p>
 
 <hr>
-
-## 📥 Установка зависимостей
 
 Если скрипт **не запускается**, выполните следующие шаги:
 
@@ -29,8 +27,7 @@
 ## ℹ️ Поддержка и ссылки
 
 <p align="center">
-  📌 <a href="https://github.com/amfeeque/samp.tools"><strong>Репозиторий на GitHub</strong></a><br>
-  💬 <em>Вопросы, баги и предложения — через Issues</em>
+  📌 <a href="https://github.com/amfeeque/samp.tools"><strong>Репозиторий на GitHub</strong></a>
 </p>
 
 
