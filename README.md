@@ -31,5 +31,5 @@
 ---
 
 <p align="center">
-  🔗 <a href="https://github.com/amfeeque/samp.tools">Репозиторий на GitHub</a> | 🧠 <em>Сделано с умом</em>
+  🔗 <a href="https://github.com/amfeeque/samp.tools">Репозиторий на GitHub</a>
 </p>
