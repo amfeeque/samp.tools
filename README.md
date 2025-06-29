@@ -40,5 +40,5 @@
 ---
 
 <p align="center">
-  📌 <a href="https://github.com/amfeeque/samp.tools"><strong>Репозиторий на GitHub</strong></a>
+  📌 <a href="https://github.com/amfeeque/samp.tools/tree/main/AdminTools"><strong>Репозиторий на GitHub</strong></a>
 </p>
