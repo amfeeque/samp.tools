@@ -1,0 +1,45 @@
+title: SAMP Tools
+description: Документация по инструментам для SAMP
+theme: jekyll-theme-cayman
+
+# Настройки плагинов
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Настройки темы
+cayman:
+  show_downloads: false
+  show_sidebar: true
+  navigation:
+    - text: "Главная"
+      url: "/"
+    - text: "AdminTools"
+      url: "/AdminTools"
+    - text: "Tracers"
+      url: "/Tracers"
+    - text: "SampDB"
+      url: "/SampDB"
+
+# Настройки сайта
+url: "https://amfeeque.github.io"
+baseurl: "/samp.tools"
+
+# Обработка markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Настройки сборки
+timezone: Europe/Moscow
+encoding: utf-8
+
+# Отключение ненужных плагинов
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
