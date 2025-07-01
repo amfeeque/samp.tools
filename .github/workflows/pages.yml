@@ -36,10 +36,8 @@ jobs:
       - name: Build with Jekyll
         run: |
           cd docs
-          # Создаем симлинк для корректной обработки страниц
-          mkdir -p _site/pages
-          ln -s $PWD/pages _site/
-          jekyll build --trace --verbose
+          # Build the site with verbose output
+          jekyll build --trace --verbose --destination ./_site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

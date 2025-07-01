@@ -31,6 +31,22 @@ defaults:
     values:
       layout: "default"
 
+# Основная конфигурация
+baseurl: "/samp.tools"
+url: "https://amfeeque.github.io"
+
+# Настройки сайта
+title: "SAMP Tools"
+description: "Документация по инструментам для SAMP"
+
+# Настройки обработки
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Пути
+collections_dir: .
+
 # Исключаем ненужные файлы
 exclude:
   - Gemfile
@@ -38,4 +54,16 @@ exclude:
   - vendor
   - README.md
   - .github
-  - pages
+  - .git
+  - .gitignore
+  - .github
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - _site
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - .DS_Store
+  - Thumbs.db
