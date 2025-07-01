@@ -1,3 +1,9 @@
+---
+layout: default
+title: Tracers
+description: Инструмент для отображения трассеров в игре SAMP
+---
+
 # Tracers
 
 ## Описание

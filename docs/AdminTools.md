@@ -1,3 +1,9 @@
+---
+layout: default
+title: AdminTools
+description: Многофункциональный инструментарий для администрации проекта Samp-Rp
+---
+
 # AdminTools
 
 <p align="center">

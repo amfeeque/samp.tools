@@ -1,3 +1,9 @@
+---
+layout: default
+title: SampDB
+description: Система управления базой данных для SAMP
+---
+
 # SampDB
 
 ## Описание
