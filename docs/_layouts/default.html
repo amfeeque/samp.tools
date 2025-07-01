@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #24292e;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 1rem;
+        }
+        h1, h2, h3 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            color: #24292e;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .nav {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .nav a {
+            padding: 0.5rem 1rem;
+            background: #f6f8fa;
+            border-radius: 6px;
+        }
+        .nav a:hover {
+            background: #e1e4e8;
+            text-decoration: none;
+        }
+        pre {
+            background: #f6f8fa;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+            background: rgba(27, 31, 35, 0.05);
+            border-radius: 3px;
+            padding: 0.2em 0.4em;
+            font-size: 85%;
+        }
+        pre code {
+            background: transparent;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="/samp.tools/">Главная</a>
+            <a href="/samp.tools/AdminTools">AdminTools</a>
+            <a href="/samp.tools/Tracers">Tracers</a>
+            <a href="/samp.tools/SampDB">SampDB</a>
+        </div>
+        <h1>{{ page.title }}</h1>
+    </header>
+
+    <main class="container">
+        {{ content }}
+    </main>
+
+    <footer style="margin-top: 4rem; padding: 2rem 0; border-top: 1px solid #e1e4e8; text-align: center; color: #6a737d;">
+        <p>© 2025 SAMP Tools. Документация обновлена {{ site.time | date: "%d.%m.%Y" }}</p>
+    </footer>
+</body>
+</html>

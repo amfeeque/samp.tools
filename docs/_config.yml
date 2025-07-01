@@ -1,36 +1,40 @@
 title: SAMP Tools
 description: Документация по инструментам для SAMP
 
-theme: minima
+# Отключаем тему
+theme: null
 
 # Настройки сайта
 url: "https://amfeeque.github.io"
 baseurl: "/samp.tools"
 
-# Навигация
-header_pages:
-  - index.md
-  - AdminTools.md
-  - Tracers.md
-  - SampDB.md
-
 # Обработка markdown
 markdown: kramdown
 kramdown:
   input: GFM
+  hard_wrap: false
+  auto_ids: true
   syntax_highlighter: rouge
 
 # Настройки сборки
 timezone: Europe/Moscow
 encoding: utf-8
 
-# Плагины
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# Отключаем ненужные плагины
+plugins: []
 
+# Отключаем автоматическое создание постов
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Исключаем ненужные файлы
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
   - README.md
+  - .github
