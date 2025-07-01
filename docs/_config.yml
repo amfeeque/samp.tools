@@ -38,3 +38,4 @@ exclude:
   - vendor
   - README.md
   - .github
+  - pages

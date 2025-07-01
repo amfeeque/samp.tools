@@ -9,21 +9,21 @@ title: SAMP Tools
 
 <div class="tool-cards">
   <div class="tool-card">
-    <h2><a href="AdminTools">AdminTools</a></h2>
+    <h2><a href="pages/AdminTools">AdminTools</a></h2>
     <p>Многофункциональный инструментарий для администрации проекта Samp-Rp</p>
-    <a href="AdminTools" class="btn">Подробнее →</a>
+    <a href="pages/AdminTools" class="btn">Подробнее →</a>
   </div>
 
   <div class="tool-card">
-    <h2><a href="Tracers">Tracers</a></h2>
+    <h2><a href="pages/Tracers">Tracers</a></h2>
     <p>Инструмент для отображения трассеров в игре SAMP</p>
-    <a href="Tracers" class="btn">Подробнее →</a>
+    <a href="pages/Tracers" class="btn">Подробнее →</a>
   </div>
 
   <div class="tool-card">
-    <h2><a href="SampDB">SampDB</a></h2>
+    <h2><a href="pages/SampDB">SampDB</a></h2>
     <p>Система управления базой данных для SAMP</p>
-    <a href="SampDB" class="btn">Подробнее →</a>
+    <a href="pages/SampDB" class="btn">Подробнее →</a>
   </div>
 </div>
 
