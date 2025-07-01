@@ -5,7 +5,7 @@ title: Главная
 
 <h1 align="center">samp.tools</h1>
 
-Коллекция полезных инструментов для SA:MP. Выберите инструмент, чтобы узнать больше и скачать.
+Коллекция полезных инструментов для Samp-Rp.
 
 <div class="card-container">
   <div class="card">
@@ -19,8 +19,8 @@ title: Главная
     <a href="./Tracers/" class="button">Перейти</a>
   </div>
   <div class="card">
-    <h2>SampDB</h2>
-    <p>База данных игроков и информации по серверам Samp-Rp.</p>
+    <h2>SampDB Helper</h2>
+    <p>Удобное приложение для доступа к логам фракций прямо из игры, а также многое другое.</p>
     <a href="./SampDB/" class="button">Перейти</a>
   </div>
 </div>
