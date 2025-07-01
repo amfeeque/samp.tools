@@ -18,13 +18,13 @@ description: Многофункциональный инструментарий
 ## Установка
 
 1. **Скачайте последнюю версию скрипта**
-   [🔄 Скачать AdminTools.luac](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/AdminTools/AdminTools.luac)
+   [🔄 Скачать AdminTools.luac](https://github.com/amfeeque/samp.tools/raw/main/AdminTools/AdminTools.luac)
 
 2. **Установите библиотеки:**
-   [📦 DirectX + Visual C++ Redistributables](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/atoolsfiles/dx+vcredist.rar)
+   [📦 DirectX + Visual C++ Redistributables](https://github.com/amfeeque/samp.tools/raw/main/atoolsfiles/dx+vcredist.rar)
 
 3. **Обновите библиотеку `lib`:**
-   [📁 Скачать и заменить папку `lib`](https://github.com/amfeeque/samp.tools/raw/refs/heads/main/atoolsfiles/lib.rar)
+   [📁 Скачать и заменить папку `lib`](https://github.com/amfeeque/samp.tools/raw/main/atoolsfiles/lib.rar)
 
    > 🗂 Перенесите содержимое архива в `moonloader/lib/`, согласившись на замену файлов.
 
