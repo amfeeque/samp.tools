@@ -1,9 +1,9 @@
 ---
 layout: default
-title: SampDB
+title: SampDB Helper
 ---
 
-# SampDB
+# SampDB Helper
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-active-brightgreen?style=flat-square">
