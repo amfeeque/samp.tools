@@ -11,17 +11,17 @@ title: Главная
   <div class="card">
     <h2>AdminTools</h2>
     <p>Многофункциональный инструментарий для администрации проекта Samp-Rp.</p>
-    <a href="pages/AdminTools" class="button">Перейти</a>
+    <a href="AdminTools" class="button">Перейти</a>
   </div>
   <div class="card">
     <h2>Tracers</h2>
     <p>Плагин для отображения трассеров пуль в SA:MP.</p>
-    <a href="pages/Tracers" class="button">Перейти</a>
+    <a href="Tracers" class="button">Перейти</a>
   </div>
   <div class="card">
     <h2>SampDB</h2>
     <p>База данных игроков и информации по серверам Samp-Rp.</p>
-    <a href="pages/SampDB" class="button">Перейти</a>
+    <a href="SampDB" class="button">Перейти</a>
   </div>
 </div>
 
