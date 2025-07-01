@@ -7,27 +7,32 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
         with:
-          ruby-version: '3.1'
-          
-      - name: Install Jekyll
-        run: gem install jekyll
-        
-      - name: Build site
-        run: jekyll build -d ./_site -s ./docs
-        
+          source: ./docs
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+
+  deploy:
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: _site
-          branch: gh-pages
-          clean: true
+        id: deployment
+        uses: actions/deploy-pages@v2
