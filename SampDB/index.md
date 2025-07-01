@@ -29,6 +29,8 @@ title: SampDB
 
 - **Требования:**
   - Установленный [MoonLoader](https://blast.hk/threads/13305/)
+- **Установите библиотеки:**
+   [📦 DirectX + Visual C++ Redistributables](https://github.com/amfeeque/samp.tools/raw/main/atoolsfiles/dx+vcredist.rar)
 - **Скачать:** [📜 Скачать sampdb.luac](https://github.com/amfeeque/samp.tools/raw/main/SampDB/sampdb.luac)
 - **Установка:**
   - Поместите `sampdb.luac` в папку `moonloader`.
