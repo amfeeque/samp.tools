@@ -16,7 +16,7 @@ title: Tracers
 
 ## Установка
 
-1. **Убедитесь, что у вас установлен [SAMPFUNCS](http://blast.hk/threads/13/).**
+1. **Убедитесь, что у вас установлен [SAMPFUNCS](http://blast.hk/threads/17/).**
 
 2. **Скачайте плагин:**
    [🔄 Скачать tracers.sf](https://github.com/amfeeque/samp.tools/raw/main/Tracers/tracers.sf)
