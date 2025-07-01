@@ -3,7 +3,7 @@ layout: default
 title: Главная
 ---
 
-# samp.tools
+<h1 align="center">samp.tools</h1>
 
 Коллекция полезных инструментов для SA:MP. Выберите инструмент, чтобы узнать больше и скачать.
 
@@ -34,27 +34,35 @@ title: Главная
   padding: 20px 0;
 }
 .card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
   padding: 20px;
   width: 300px;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 .card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 .card h2 {
   margin-top: 0;
+  font-weight: 600;
 }
 .card .button {
   display: inline-block;
-  background-color: #007bff;
+  background-color: #0366d6;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
   margin-top: 15px;
+  font-weight: 600;
+  border: 1px solid rgba(27,31,35,0.15);
+  transition: background-color 0.2s;
+}
+.card .button:hover {
+    background-color: #005cc5;
 }
 </style>
