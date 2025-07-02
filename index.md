@@ -68,49 +68,42 @@ body {
   color: var(--text);
   background-color: var(--bg);
   line-height: 1.6;
-}
-
-.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
-.hero {
-  text-align: center;
-  padding: 4rem 1rem;
-  margin-bottom: 2rem;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
-  border-radius: var(--border-radius);
-  margin: 1rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-}
-
-.hero h1 {
+h1[align="center"] {
   font-size: 2.8rem;
-  margin: 0 0 0.5rem;
+  margin: 1.5rem 0;
   color: var(--text);
   font-weight: 700;
   background: linear-gradient(90deg, #1a73e8, #34a853);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
-.subtitle {
-  font-size: 1.25rem;
+p {
+  text-align: center;
+  margin-bottom: 2rem;
   color: var(--text-secondary);
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
-  padding: 2rem 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  margin: 2rem 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .card {
@@ -123,6 +116,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  box-sizing: border-box;
 }
 
 .card:hover {
@@ -147,12 +141,15 @@ body {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--text);
+  text-align: center;
 }
 
 .card p {
   color: var(--text-secondary);
   margin: 0 0 1.5rem;
   flex-grow: 1;
+  text-align: center;
+  max-width: 100%;
 }
 
 .button {
@@ -192,15 +189,15 @@ body {
 @media (max-width: 768px) {
   .card-container {
     grid-template-columns: 1fr;
-    padding: 1rem;
+    padding: 0;
   }
   
-  .hero h1 {
+  h1[align="center"] {
     font-size: 2.2rem;
   }
   
-  .subtitle {
-    font-size: 1.1rem;
+  body {
+    padding: 0 15px;
   }
 }
 </style>
