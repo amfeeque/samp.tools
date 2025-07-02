@@ -97,8 +97,9 @@ p {
 }
 
 .card-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   margin: 2rem 0;
   padding: 0;
@@ -115,7 +116,7 @@ p {
   border: 1px solid #e0e0e0;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  width: 300px;
   box-sizing: border-box;
 }
 
