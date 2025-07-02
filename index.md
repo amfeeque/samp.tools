@@ -3,10 +3,9 @@ layout: default
 title: Главная
 ---
 
-<div class="hero">
-  <h1>samp.tools</h1>
-  <p class="subtitle">Набор инструментов для комфортной игры на Samp-Rp</p>
-</div>
+<h1 align="center">samp.tools</h1>
+
+Коллекция полезных инструментов для Samp-Rp.
 
 <div class="card-container">
   <div class="card">
@@ -17,7 +16,7 @@ title: Главная
       </svg>
     </div>
     <h2>AdminTools</h2>
-    <p>Мощный инструментарий для администрирования проекта Samp-Rp с расширенными возможностями.</p>
+    <p>Многофункциональный инструментарий для администрации проекта Samp-Rp.</p>
     <a href="./AdminTools/" class="button">Подробнее →</a>
   </div>
 
@@ -28,7 +27,7 @@ title: Главная
       </svg>
     </div>
     <h2>Tracers</h2>
-    <p>Визуализация трассеров пуль для лучшего контроля в бою. Только для Samp-Rp.</p>
+    <p>Плагин для отображения трассеров пуль в SA:MP.</p>
     <a href="./Tracers/" class="button">Подробнее →</a>
   </div>
 
@@ -43,7 +42,7 @@ title: Главная
       </svg>
     </div>
     <h2>SampDB Helper</h2>
-    <p>Доступ к логам фракций и другой полезной информации прямо в игре.</p>
+    <p>Удобное приложение для доступа к логам фракций прямо из игры, а также многое другое.</p>
     <a href="./SampDB/" class="button">Подробнее →</a>
   </div>
 </div>
